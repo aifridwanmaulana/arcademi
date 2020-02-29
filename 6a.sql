@@ -1,0 +1,1 @@
+SELECT cashier.name as cashier,product.name as product,category.name AS category,product.price FROM `product` LEFT JOIN cashier ON cashier.id = product.id_cashier LEFT JOIN category ON category.id = product.id_category
