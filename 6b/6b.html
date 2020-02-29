@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>jawaban 6b</title>
+</head>
+
+<body>
+  <!-- hedading -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light border">
+    <a class="navbar-brand imgicon" href="#"><img src="img/arcademy.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+
+      </ul>
+      <form class="form-inline-custom">
+        <div class="row">
+          <div class="col-sm-10">
+            <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+              data-whatever="@mdo">ADD</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <!-- content -->
+  <div class="container">
+
+    <div class="allSides">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Cashier</th>
+            <th scope="col">Product</th>
+            <th scope="col">Catagory</th>
+            <th scope="col">Price</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Pevita Pearce</td>
+            <td>Latte </td>
+            <td>Drink</td>
+            <td>Rp. 10.000</td>
+            <td class="action">
+              <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+              <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Raisa Andriana</td>
+            <td>Cake</td>
+            <td>Food</td>
+            <td>Rp. 15.000</td>
+            <td class="action">
+              <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+              <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Raisa Andriana</td>
+            <td>Fried rice</td>
+            <td>Food</td>
+            <td>Rp. 30.000</td>
+            <td class="action">
+              <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+              <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Pevita Pearce</td>
+            <td>Gudeg </td>
+            <td>Food</td>
+            <td>Rp. 35.000</td>
+            <td class="action">
+              <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+              <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Joko Purwadhi</td>
+            <td>Ice Tea </td>
+            <td>Drink</td>
+            <td>Rp. 55.000</td>
+            <td class="action"> <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+              <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Arif Ridwan Maulana</td>
+            <td>Indomie </td>
+            <td>Food</td>
+            <td>Rp. 15.000</td>
+            <td class="action">
+
+              <img data-toggle="modal" data-target="#deleteModal" src="img/edit.png " alt="edit">
+               <img data-toggle="modal" data-target="#editModal" src="img/delete.png " alt="delete">
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- pop up Add -->
+
+
+  <div class="modal fade add" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ADD</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <label for="recipient-name" class="col-form-label"></label>
+            <select class="formadd">
+              <option value="" disabled selected>Raisa Andriana</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <select class="formadd">
+              <option value="" disabled selected>Drink</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+
+            <input type="text" class="formadd" placeholder="Ice Tea">
+            <input type="text" class="formadd" placeholder="Rp. 10. 000">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" style="background-color: #fadc9c ;">ADD</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- pop up Delete -->
+
+  <div class="modal fade berhasil" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <h2 class="data_berhasil">Data Raisa Andriana ID <span class="ID1"> #1</span></h2>
+        <div class="gambar">
+          <img src="img/success.png" class="success">
+          <h2 class="hapus">Berhasil Dihapus </h2>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit -->
+
+  <div class="modal fade add" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">EDIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <label for="recipient-name" class="col-form-label"></label>
+            <select class="formadd">
+              <option value="" disabled selected>Raisa Andriana</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <select class="formadd">
+              <option value="" disabled selected>Drink</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+
+            <input type="text" class="formadd" placeholder="Ice Tea">
+            <input type="text" class="formadd" placeholder="Rp. 10. 000">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" style="background-color: #fadc9c ;">EDIT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

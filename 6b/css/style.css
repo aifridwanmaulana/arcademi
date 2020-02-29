@@ -1,0 +1,104 @@
+
+
+    .form-inline-custom .form-control {
+        display: inline-block;
+        width: 102%;
+        vertical-align: middle;
+        border: 2px solid (220, 220, 220);
+    }
+
+    .form-inline-custom{
+        width: 100%;
+        
+    }
+
+    .border {
+        border: 2px solid (220, 220, 220);
+        box-shadow: 5px 5px 5px #aaaaaa;
+        margin-bottom: 60px;
+        
+    }
+
+    .search {
+        background-color: rgb(220, 220, 220);
+    }
+    
+    
+
+    .action img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        
+    }
+    .action {
+       text-align: center;
+    }
+
+    .allSides
+    {
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+    thead {
+        background-color: #fadc9c;
+    }
+
+    .formadd {
+        cursor: pointer;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #9e9e9e;
+        outline: none;
+        height: 3rem;
+        line-height: 3rem;
+        width: 100%;
+        font-size: 16px;
+        margin: 0 0 8px 0;
+        padding: 0;
+        display: block;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        z-index: 1;
+    }
+
+    .success {
+        
+        width: 240px;
+        height: 236px;
+        left: 577px;
+        top: 386px;
+
+    }
+
+    .add {
+       margin-top: 80px;
+    }
+
+    .berhasil {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .data_berhasil {
+        margin-top: 10px;
+    }
+
+    .ID1 {
+        color:#fadc9c;
+       
+    }
+    .gambar {
+        width: 100%; 
+        text-align: center;
+        padding-top: 10px;
+    }
+    .hapus {
+        margin-bottom: 20px;
+    }
